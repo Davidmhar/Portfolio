@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Teko', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+.btn-outline-dark{
+    background-color: rgb(72, 83, 182);
+}
+.btn-outline-dark:hover{
+    color: rgb(103, 134, 213)
+}
+footer {
+    background-color: rgb(13, 41, 97);
+    color: wheat;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #dfdfdf;
+}
+
+.nav-link-active {
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
